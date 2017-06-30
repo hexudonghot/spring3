@@ -3,9 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.pk.spring</groupId>
   <artifactId>spring3</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>spring3 Maven Webapp</name>
+    <modules>
+        <module>shiro</module>
+    </modules>
+    <name>spring3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
